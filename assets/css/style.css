@@ -241,6 +241,10 @@ input[type=submit] {
 
 @media screen and (max-width: 980px){
 
+  #logo {
+
+  }
+
 }
 
 @media screen and (max-width: 760px){
@@ -248,5 +252,40 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px){
+  #logo {
+    width:100%;
+  }
+  nav {
+    width:100%;
+    text-align:center;
+  }
 
-}
+  .main-section {
+    width:90%;
+    margin:5%;
+    margin-top:8%;
+    max-width:none;
+  }
+
+  .auth-image {
+    width:100%;
+  }
+  
+  .sidebar {
+   
+    float:left;
+    width:90%;
+    margin:5%;
+    max-width:none;
+
+  }
+
+  #connect {
+
+    float:left;
+    width:100%;
+    margin:5%;
+  }
+
+f
+
