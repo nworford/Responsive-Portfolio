@@ -246,7 +246,7 @@ input[type=submit] {
 @media screen and (max-width: 980px){
 
   #logo {
-    margin-left:10%;
+    margin-left:5%;
   }
   
   nav {
@@ -256,7 +256,7 @@ input[type=submit] {
   .main-section {
 
     width:50%;
-    margin-left:10%;
+    margin-left:5%;
     margin-top:0%;
     margin-right:1%%;
     
@@ -291,6 +291,10 @@ input[type=submit] {
     margin:5%;
     margin-top:0%;
     max-width:none;
+  }
+
+   .auth-image {
+    width:40%;
   }
 
 
