@@ -43,6 +43,10 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #ddd;
+
+  animation-name: animation-three; /*asdasdaaaaaaaa------------------------------------------ three*/
+  animation-duration: 4s;
+  animation-iteration-count: 1;
 }
 
 h2,
@@ -76,14 +80,20 @@ h3 {
   text-decoration: none;
   background: #4aaaa5;
 
-  animation-name: example;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+  animation-name: animation-one;     /*-----------------------------------------------one */
+    animation-duration: 4s;
+    animation-iteration-count: 1;
 }
 
 nav {
   float: right;
   margin-top: 25px;
+  padding-right:10px;
+  padding-left:10px;
+
+  animation-name: animation-two;  /*-----------------------------------------------two */
+  animation-duration: 4s;
+  animation-iteration-count: 1;
 }
 
 nav a {
@@ -123,6 +133,10 @@ footer {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
+
+  animation-name: animation-four;  /*----------------------------------------------- four */
+  animation-duration: 4s;
+  animation-iteration-count: 1;
 }
 
 h3,
@@ -356,11 +370,70 @@ input[type=submit] {
 }
 }
 
-@keyframes example {
-    0%   {background-color:#fff;}
-    25%  {background-color:#4aaaa5;}
-    50%  {background-color:#fff; }
-    75%  {background-color:#4aaaa5;}
+@keyframes animation-one {
+    0%   {background-color:#4aaaa5;}
+    8.33%  {background-color:#4aaaa5;}
+    16.66%  {background-color:#ffcc66; }
+    25%  {background-color:#ffcc66;}
+    33.33% {background-color:#4aaaa5;}
+    41.66% {background-color:#4aaaa5;}
+    50% {background-color:#4aaaa5;}
+    58.33% {background-color:#4aaaa5;}
+    66.66% {background-color:#4aaaa5;}
+    75% {background-color:#4aaaa5;}
+    83.33% {background-color:#4aaaa5;}
+    91.66% {background-color:#4aaaa5;}
+    100% {background-color:#4aaaa5;}
+
+}
+
+@keyframes animation-two {
+   0%   {background-color:#fff;}
+    8.33%  {background-color:#fff;}
+    16.66%  {background-color:#fff; }
+    25%  {background-color:#fff;}
+    33.33% {background-color:#fff;}
+    41.66% {background-color:#ffcc66;}
+    50% {background-color:#ffcc66;}
+    58.33% {background-color:#fff;}
+    66.66% {background-color:#fff;}
+    75% {background-color:#fff;}
+    83.33% {background-color:#fff;}
+    91.66% {background-color:#fff;}
     100% {background-color:#fff;}
 
 }
+
+@keyframes animation-three {
+       0%   {background-color:#fff;}
+    8.33%  {background-color:#fff;}
+    16.66%  {background-color:#fff; }
+    25%  {background-color:#fff;}
+    33.33% {background-color:#fff;}
+    41.66% {background-color:##fff;}
+    50% {background-color:#fff;}
+    58.33% {background-color:#fff;}
+    66.66% {background-color:#ffcc66;}
+    75% {background-color:#ffcc66;}
+    83.33% {background-color:#fff;}
+    91.66% {background-color:#fff;}
+    100% {background-color:#fff;}
+
+}
+
+@keyframes animation-four {
+       0%   {background-color:#fff;}
+    8.33%  {background-color:#fff;}
+    16.66%  {background-color:#fff; }
+    25%  {background-color:#fff;}
+    33.33% {background-color:#fff;}
+    41.66% {background-color:##fff;}
+    50% {background-color:#fff;}
+    58.33% {background-color:#fff;}
+    66.66% {background-color:#fff;}
+    75% {background-color:#fff;}
+    83.33% {background-color:#fff;}
+    91.66% {background-color:##fff;}
+    100% {background-color:#ffcc66;}
+}
+
