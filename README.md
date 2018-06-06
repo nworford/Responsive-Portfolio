@@ -66,7 +66,7 @@ BONUS
 
 2.Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
-TECH USED: HTML, CSS, JavaScript, jQuery Google Firebase
+TECH USED: HTML, CSS, Bootstrap
 
 HIGHLIGHT CODE:
 
